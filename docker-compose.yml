@@ -35,6 +35,6 @@ volumes:
   mysql-data:
 
 networks:
-  setup-mysql_default:
-    external: true
+  setup-mysql-network:
+    driver: bridge
 
